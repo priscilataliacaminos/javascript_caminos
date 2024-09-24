@@ -1,0 +1,64 @@
+.secciones{
+    display: flex;
+}
+
+.categorias {
+    text-align: center;
+    background: linear-gradient(128.84deg, #0f6cbd 20.46%, #3c45ab 72.3%);
+    color: #ffffff;
+    border: 1px solid #0F6CBD;
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 1.8;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .categorias:hover {
+    border: 2px solid #3595ee;
+    background: linear-gradient(128.84deg, #025caa 20.46%, #222b91 72.3%);
+    box-shadow: 0px 4px 20px linear-gradient(128.84deg, #0f6cbd 20.46%, #3c45ab 72.3%);
+    text-shadow: 1px 2px 10px linear-gradient(128.84deg, #0f6cbd 20.46%, #3c45ab 72.3%);
+    color: #ffffff;
+    font-weight: 900;
+  }
+
+  .centrada {
+ align-items: center !important;
+ text-align: center;
+  }
+
+  .finalLista {
+    font-size: 24px;
+    font-weight: bolder;
+
+  }
+
+
+  .button {
+    font-family: "Courier New";
+    color: #ffffff;
+    font-size: 24px;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 100px;
+    box-shadow: 0px 1px 3px #666666;
+    text-shadow: 1px 1px 3px #666666;
+    cursor: pointer;
+  }
+  .button-blue {
+    border: 2px solid #003366;
+    background: linear-gradient(to bottom, #0074e4, #003366);
+  }
+  .button-blue:hover {
+    border: 2px solid #3595ee;
+    background: linear-gradient(to bottom, #666666, #000000);
+    box-shadow: 0px 4px 20px linear-gradient(to bottom, #0074e4, #003366);
+    text-shadow: 1px 2px 10px linear-gradient(to bottom, #0074e4, #003366);
+    color: green;
+  }
+  .button-blue:active {
+    border: 2px solid #3595ee;
+    color: #FF69B4;
+    background: linear-gradient(to bottom, #ffffff, #666666);
+    box-shadow: 0px 4px 20px linear-gradient(to bottom, #0074e4, #003366);
+  }
